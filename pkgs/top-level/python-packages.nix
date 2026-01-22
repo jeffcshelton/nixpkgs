@@ -9654,6 +9654,8 @@ self: super: with self; {
 
   midea-local = callPackage ../development/python-modules/midea-local { };
 
+  miditoolkit = callPackage ../development/python-modules/miditoolkit { };
+
   midiutil = callPackage ../development/python-modules/midiutil { };
 
   mido = callPackage ../development/python-modules/mido { };
