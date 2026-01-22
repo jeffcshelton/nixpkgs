@@ -18480,6 +18480,8 @@ self: super: with self; {
 
   symspellpy = callPackage ../development/python-modules/symspellpy { };
 
+  symusic = callPackage ../development/python-modules/symusic { };
+
   syncedlyrics = callPackage ../development/python-modules/syncedlyrics { };
 
   syncer = callPackage ../development/python-modules/syncer { };
